@@ -1,0 +1,127 @@
+.tablebox{
+    display: table;
+}
+.tablebox .table-cell{
+    display: table-cell;
+    vertical-align: middle;
+}
+img{
+    max-width: 100%;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right,.align-right{
+    text-align: right;
+}
+.primarylink{
+    color: #2300A8;
+    cursor: pointer;
+}
+.primarylink:hover{
+    color: #200097;
+}
+.primary{
+    color: #2300A8;
+}
+.red{
+    color: #E6212B;
+}
+.cursorpoint{
+    cursor: pointer;
+}
+
+/*表单等维持圆角，按钮为直角*/
+.ant-btn{
+    border-radius: 0;
+}
+/*红色背景按钮*/
+.dangerbtn{
+    background: #E6212B;
+    color: #fff;
+    border-color: #E6212B;
+}
+.dangerbtn:hover,.dangerbtn:focus{
+    background: #CA131D;
+    border-color: #CA131D;
+    color: #fff;
+}
+.dangerbtn:active{
+    background: #AC0710;
+    border-color: #AC0710;
+    color: #fff;
+}
+.scrollbar::-webkit-scrollbar {
+    width: 2px;     
+    height: 1px;
+}
+.scrollbar::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    background: #2300A8;
+}
+.scrollbar::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background: #D8D8D8;
+}
+
+.ant-modal-mask{
+    background:rgba(0,0,0,0.3);
+}
+
+
+/*字体图标*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?j6qbfr');
+  src:  url('../fonts/icomoon.eot?j6qbfr#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?j6qbfr') format('truetype'),
+    url('../fonts/icomoon.woff?j6qbfr') format('woff'),
+    url('../fonts/icomoon.svg?j6qbfr#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-orderstep1:before {
+  content: "\e906";
+}
+.icon-orderstep2:before {
+  content: "\e900";
+}
+.icon-orderstep3:before {
+  content: "\e901";
+}
+.icon-orderstep4:before {
+  content: "\e902";
+}
+.icon-orderstep5:before {
+  content: "\e903";
+}
+.icon-orderstep6:before {
+  content: "\e907";
+}
+.icon-orderstep7:before {
+  content: "\e904";
+}
+.icon-orderstep8:before {
+  content: "\e905";
+}
